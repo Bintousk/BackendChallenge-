@@ -47,7 +47,6 @@ const Home = () => {
                 // <div key={item._id}></div>
                 )}
                 
-                <Card type="add" setItems={setItems}/>
             </div>
         </div>
     )

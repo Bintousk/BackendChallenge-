@@ -37,7 +37,7 @@ const PopupComment = ({ setPopupComment, item, setItems, setCardItem }) => {
             location: data.location,
             quantity: data.quantity,
             price: data.price,
-            deletionComment: data.deletionComment,
+            deletionComment: data.deletionComment || "no comment",
             _id: data._id
         }
         axios.put("http://localhost:5002/items/update",uData)

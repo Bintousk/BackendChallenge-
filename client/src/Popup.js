@@ -41,7 +41,7 @@ const Popup = ({ setPopup, item, setItems, setCardItem }) => {
         }
 
         
-        // Now add user data using axios
+        /
         axios.post("http://localhost:5002/items/create", uData)
 
         // Making realtime using Socket.io
@@ -63,7 +63,7 @@ const Popup = ({ setPopup, item, setItems, setCardItem }) => {
         return false;
         
       }
-      if(data.locaton === ""){
+      if(data.location === ""){
         return false;
         
       }
@@ -174,11 +174,11 @@ const Popup = ({ setPopup, item, setItems, setCardItem }) => {
                
                 {!item ? (
                     <button onClick={addItem}>
-                        Add User
+                        Add Item
                     </button>
                 ): (
                         <button onClick={updateItem}>
-                            Update User
+                            Update Item
                         </button>
                 )}
                 

@@ -68,7 +68,7 @@ const Card = ({ type, item, setItems, allItems }) => {
                             <p className="about">Description: {carItem.description}</p>
                             <p className="location">Location: {carItem.location}</p>
                             <p className="quantity">Quantity: {carItem.quantity}</p>
-                            <p className="price">Price: {carItem.price}</p>
+                            <p className="price">Price: {carItem.price} $</p>
                             
                         </div>
 
