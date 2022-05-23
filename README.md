@@ -14,6 +14,7 @@ For this project , the feature I choose is :When deleting, allow deletion commen
 
 # Running on Replit
 I set up my Replit so that when you click on the Run button, the web application starts.
+The link for the Replit is : https://replit.com/join/bsvwjjwdab-bintousk
 However, you can also do it manually using the following method:
 1) Open the console and type ```cd server && npm install && npm start```
 2) Open the shell and type ```cd server && npm install && npm start```
@@ -27,5 +28,5 @@ However, you can also do it manually using the following method:
 
 # Tests
 I also implemented some tests.
-to run them you have to type ```npm test``` in the server or client file
+To run them you have to type ```npm test``` in the server or client file
 Ps: To run your tests on the server side you must have your server running on port 5002.
